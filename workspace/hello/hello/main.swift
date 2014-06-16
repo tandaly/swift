@@ -8,6 +8,9 @@
 
 import Foundation
 
+system("clear srceen")
+
+/*
 //打印语句
 println("Hello, World!")
 
@@ -53,6 +56,67 @@ if bool
 {
     println(bool)
 }
+
+//延迟和清屏语句
+sleep(1);//延迟一秒
+system("clear screen") //该语句需要在可执行文件中才有效果
+
+//一朵玫瑰花
+print("{@}  \n")
+print(" |   \n")
+print("\\|/ \n")	
+print(" |   \n")
+print(" |   \n")
+*/
+
+/*
+//输入语句：调用c函数
+var a = getIntFromKeyBoard()
+println(a)
+*/
+
+/*
+//模拟QQ登录输入
+print("请输入QQ账号：")
+var qq = getIntFromKeyBoard()
+print("请输入QQ密码：")
+var pwd = getIntFromKeyBoard()
+println("QQ账号＝\(qq), 密码=\(pwd)")
+*/
+
+/*
+//循环语句
+for i in 0..10 {
+    println(i)
+}
+
+//if语句
+var a = String()
+a = "a"
+var b:String = "a"
+if a == b{
+    println("a等于b")
+}
+else {
+    println("a不等于b")
+}
+
+//switch语句
+var c = 10
+switch c
+{
+case 1,2,3,4,5:
+    println(0)
+case 10:
+    println(c)
+default:
+    println("wu")
+}
+*/
+
+//可选变量 ! 和 ?
+
+
 
 
 
