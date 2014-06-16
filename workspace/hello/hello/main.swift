@@ -117,7 +117,13 @@ default:
 //可选变量 ! 和 ?
 
 
-
+//传说中的九九乘法表
+for x in 1...9{
+    for y in 1...x{
+        print("\(x)*\(y)=\(x*y)\t")
+    }
+    println()
+}
 
 
 
