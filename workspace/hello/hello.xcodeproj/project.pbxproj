@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5314DC31950702C008FAE8F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5314DC21950702B008FAE8F /* Test.swift */; };
+		A5314DC519507307008FAE8F /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5314DC419507307008FAE8F /* Hello.swift */; };
 		A5636A8F194D88EF00F61BC3 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = A5636A8E194D88EF00F61BC3 /* File.m */; };
 		A5636A91194D890400F61BC3 /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = A5636A90194D890400F61BC3 /* File.c */; };
 		A56CD7D4194D55DF003A48D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CD7D3194D55DF003A48D9 /* main.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A5314DC21950702B008FAE8F /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		A5314DC419507307008FAE8F /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 		A5636A8D194D88EE00F61BC3 /* hello-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-Bridging-Header.h"; sourceTree = "<group>"; };
 		A5636A8E194D88EF00F61BC3 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
 		A5636A90194D890400F61BC3 /* File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				A5636A8E194D88EF00F61BC3 /* File.m */,
 				A5636A8D194D88EE00F61BC3 /* hello-Bridging-Header.h */,
 				A5636A90194D890400F61BC3 /* File.c */,
+				A5314DC21950702B008FAE8F /* Test.swift */,
+				A5314DC419507307008FAE8F /* Hello.swift */,
 			);
 			path = hello;
 			sourceTree = "<group>";
@@ -129,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5636A91194D890400F61BC3 /* File.c in Sources */,
+				A5314DC31950702C008FAE8F /* Test.swift in Sources */,
 				A56CD7D4194D55DF003A48D9 /* main.swift in Sources */,
+				A5314DC519507307008FAE8F /* Hello.swift in Sources */,
 				A5636A8F194D88EF00F61BC3 /* File.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

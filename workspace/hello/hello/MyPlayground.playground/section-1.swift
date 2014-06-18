@@ -1,7 +1,5 @@
 // Playground - noun: a place where people can play
 
-import Cocoa
+var p = "playground"
 
-var str = "Hello, playground"
 
-println(str + str)
